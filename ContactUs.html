@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="ContactUs.js"></script>
+	<link rel="stylesheet" href="ContactUs.css">
+	<title>Contact Us</title> 
+	<link rel="icon" href="photos/icon.png" type="image/x-icon"> 
+	<link rel="shortcut icon" href="photos/icon.png" type="image/x-icon">  
+</head>
+<body>
+	<header id="showcase">
+		<div class="bg-image"></div>
+		<div class="wrapper">
+			<div id="homepage"><a href="index.html"><img src="photos/home.png"></a></div>
+	    </div>
+	</header>
+	<main id="main">
+            <div class="container">
+              <div style="text-align:center">
+				<h2>Send us your message</h2>
+				<p><strong>Let's connect!</strong>
+					<br><small>We'd love to answer your questions about features, or anything else.</small></p>
+              </div>
+              <div class="row">
+                <div class="column">
+					<form action="https://formspree.io/ali_sitrick@yahoo.com" method="POST">
+                    <input type="text" class="name" name="name" placeholder="* Your name..">
+                    <input type="email" class="email" name="email" placeholder="* Your email..">
+                    <textarea id="message" name="message" placeholder="* Write something.." style="height:120px"></textarea>
+					<br>
+					<div class="status">
+
+					</div>
+                    <input type="submit" value="Submit" class="submit"><br>
+                  </form>
+                </div>
+              </div>
+            </div>            
+	</main>
+	<footer>
+		<small>Pace Magazine
+		<br>Project by Ali</small>
+	</footer>
+</body>
+</html>
